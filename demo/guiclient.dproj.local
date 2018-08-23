@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.067,=X:\ПРОЕКТЫ\Майнинг\Трейдинг\Анализ нервозности\dcef3-master\src\src\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.163,X:\ПРОЕКТЫ\Майнинг\Трейдинг\Анализ нервозности\dcef3-master\src\src\Other.pas=X:\ПРОЕКТЫ\Майнинг\Трейдинг\Анализ нервозности\dcef3-master\src\src\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.161,=X:\ПРОЕКТЫ\Майнинг\Трейдинг\Анализ нервозности\dcef3-master\src\src\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.330,=X:\ПРОЕКТЫ\Майнинг\Трейдинг\Анализ нервозности\dcef3-master\src\src\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.306,=X:\ПРОЕКТЫ\Майнинг\Трейдинг\Анализ нервозности\dcef3-master\src\src\Unit3.pas</Transaction>
+  </Transactions>
+</BorlandProject>

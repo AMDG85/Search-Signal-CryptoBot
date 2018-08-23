@@ -1,0 +1,111 @@
+object About: TAbout
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'About'
+  ClientHeight = 156
+  ClientWidth = 310
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object sLabel1: TsLabel
+    Left = 40
+    Top = 40
+    Width = 53
+    Height = 13
+    Caption = 'Developer:'
+    Color = clBackground
+    ParentColor = False
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+  end
+  object sLabel2: TsLabel
+    Left = 40
+    Top = 59
+    Width = 47
+    Height = 13
+    Caption = 'Contacts:'
+  end
+  object sLabel3: TsLabel
+    Left = 128
+    Top = 40
+    Width = 69
+    Height = 13
+    Caption = #1047#1072#1081#1082#1086' '#1057#1077#1088#1075#1077#1081
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clHighlight
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+  end
+  object sWebLabel1: TsWebLabel
+    Left = 128
+    Top = 59
+    Width = 84
+    Height = 13
+    Caption = 'www.'#1089#1077#1088#1075#1077#1081'.'#1073#1077#1083
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    HoverFont.Charset = DEFAULT_CHARSET
+    HoverFont.Color = clWindowText
+    HoverFont.Height = -11
+    HoverFont.Name = 'Tahoma'
+    HoverFont.Style = []
+    URL = 'www.'#1089#1077#1088#1075#1077#1081'.'#1073#1077#1083
+  end
+  object sWebLabel2: TsWebLabel
+    Left = 129
+    Top = 78
+    Width = 58
+    Height = 13
+    Caption = 'sir85@bk.ru'
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    HoverFont.Charset = DEFAULT_CHARSET
+    HoverFont.Color = clWindowText
+    HoverFont.Height = -11
+    HoverFont.Name = 'Tahoma'
+    HoverFont.Style = []
+    URL = 'mailto:sir85@bk.ru'
+  end
+  object sLabelFX1: TsLabelFX
+    Left = 40
+    Top = 8
+    Width = 150
+    Height = 15
+    Caption = 'Search Signal CryptoBot v.1.0 '
+    Angle = 0
+    Shadow.OffsetKeeper.LeftTop = 0
+    Shadow.OffsetKeeper.RightBottom = 2
+  end
+  object sButton1: TsButton
+    Left = 128
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = 'Ok'
+    TabOrder = 0
+    OnClick = sButton1Click
+  end
+end
