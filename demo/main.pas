@@ -184,10 +184,15 @@ begin
    if str='1д' then   str:=tsource.Strings[1];
 
 
-  i:=Pos('R',str);
+  i:=Pos('-',str);
   str2:=copy (str,1,i-1);
+  try
  if lastbtcusd=0 then strtofloat(str2);
  btcusd:= strtofloat(str2);
+  except
+  showmessage ('Ошибка. Невозможно получить котировку с tradigview.');
+  halt;
+  end;
 
  mainform.sPanel2.Caption:='BTCUSD'+#13+str2;
  tsource.Free;
